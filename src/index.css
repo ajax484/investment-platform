@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "nunito-sans";
+  font-display: swap;
+  src: url('./Assets/fonts/NunitoSans-Regular.ttf');
+}
+
+body {
+  @apply font-nunitoSans;
+}
+
+section {
+  @apply mb-16;
+}
